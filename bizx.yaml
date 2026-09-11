@@ -1,0 +1,29 @@
+name: BizX
+meaning: Business Transformation
+subject: business
+actor: business_designer
+
+cycle:
+  - observe
+  - model
+  - strategize
+  - design
+  - experiment
+  - measure
+  - learn
+  - update
+
+outputs:
+  - business_model
+  - value_model
+  - strategy
+  - organization_model
+  - experiment
+  - measurement
+  - learning
+
+relations:
+  dx: field_business_customer_data
+  ax: accurate_execution_of_change
+  mx: market_customer_demand_touchpoints
+  bizx: business_value_revenue_organization
