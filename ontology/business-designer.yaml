@@ -1,0 +1,38 @@
+name: Business Designer
+role: business_structure_designer
+
+principle: >-
+  Business Designer designs, observes, experiments with, and updates
+  the structure through which an organization creates, delivers,
+  and captures value.
+
+inputs:
+  - market_signals
+  - customer_signals
+  - operational_data
+  - financial_data
+  - organizational_constraints
+
+activities:
+  - business_research
+  - business_modeling
+  - strategy
+  - value_design
+  - organization_design
+  - experimentation
+  - measurement
+  - learning
+  - iteration
+
+outputs:
+  - business_model
+  - value_model
+  - strategy
+  - organization_model
+  - experiment
+  - measurement
+  - learning
+
+feedback:
+  source: business
+  target: strategy
