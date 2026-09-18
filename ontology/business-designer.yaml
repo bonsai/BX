@@ -1,10 +1,11 @@
-name: Business Designer
-role: business_structure_designer
+name: Business Designer / Businessperson
+role: business_structure_designer_and_work_owner
 
 principle: >-
-  Business Designer designs, observes, experiments with, and updates
-  the structure through which an organization creates, delivers,
-  and captures value.
+  The Business Designer designs, observes, experiments with, and updates the
+  structure through which an organization creates, delivers, and captures value.
+  The Businessperson then receives the resulting work, takes ownership, operates
+  it, and hands it over — so the work continues.
 
 inputs:
   - market_signals
@@ -12,8 +13,10 @@ inputs:
   - operational_data
   - financial_data
   - organizational_constraints
+  - work
 
 activities:
+  # Transformation
   - business_research
   - business_modeling
   - strategy
@@ -23,6 +26,12 @@ activities:
   - measurement
   - learning
   - iteration
+  # Succession
+  - receive
+  - understand
+  - own
+  - operate
+  - handover
 
 outputs:
   - business_model
@@ -32,7 +41,19 @@ outputs:
   - experiment
   - measurement
   - learning
+  - ownership
+  - decision
+  - handover_record
+
+rules:
+  - own_the_work
+  - understand_before_acting
+  - decide_then_delegate
+  - make_it_continue_without_you
+  - hand_over_explicitly
+  - do_not_fabricate_results
+  - agent_is_not_the_person
 
 feedback:
-  source: business
+  source: business_and_handover
   target: strategy

@@ -1,17 +1,34 @@
-name: BizX
-meaning: Business Transformation
-subject: business
-actor: business_designer
+name: BX
+aliases:
+  - BizX
+meaning: Business Transformation + Work Inheritance
+subject:
+  - business
+  - work
+actor:
+  - business_designer
+  - businessperson
 
-cycle:
-  - observe
-  - model
-  - strategize
-  - design
-  - experiment
-  - measure
-  - learn
-  - update
+cycles:
+  transformation:
+    - observe
+    - model
+    - strategize
+    - design
+    - experiment
+    - measure
+    - learn
+    - update
+  succession:
+    - receive
+    - understand
+    - own
+    - operate
+    - handover
+
+handles:
+  - work
+  - business_model
 
 outputs:
   - business_model
@@ -21,9 +38,13 @@ outputs:
   - experiment
   - measurement
   - learning
+  - ownership
+  - decision
+  - handover_record
 
 relations:
   dx: field_business_customer_data
   ax: accurate_execution_of_change
   mx: market_customer_demand_touchpoints
   bizx: business_value_revenue_organization
+  bx: inherit_and_own_work
